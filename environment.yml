@@ -1,0 +1,13 @@
+name: TAREA3
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - pandas
+  - numpy
+  - matplotlib
+  - seaborn
+  - pip
+  - pip:
+    - some_pip_package  # Si necesitas instalar paquetes solo disponibles en pip
